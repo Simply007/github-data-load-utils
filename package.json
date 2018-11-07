@@ -1,0 +1,24 @@
+{
+  "name": "github-data-load-utils",
+  "version": "0.0.1",
+  "description": "snippets used for loading data from GitHub",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hacktoberfest": "node getHacktoberfestData.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Simply007/github-data-load-utils.git"
+  },
+  "author": "Ondřej Chrastina <chrastina.ondra@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Simply007/github-data-load-utils/issues"
+  },
+  "homepage": "https://github.com/Simply007/github-data-load-utils#readme",
+  "dependencies": {
+    "@octokit/rest": "^15.16.1",
+    "json2csv": "^4.3.0"
+  }
+}
